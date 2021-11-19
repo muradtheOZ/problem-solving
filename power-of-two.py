@@ -11,5 +11,5 @@ def isPowerOfTwo(n):
             i += 1
         else:
             return False
-result = isPowerOfTwo(64)
+result = isPowerOfTwo(1024)
 print(result)
