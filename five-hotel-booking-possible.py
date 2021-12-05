@@ -17,8 +17,8 @@ def hotel(arrive, depart, K):
             j+= 1
     return True
 
-A = [1,3,5]
-B = [2,6,8]
-c = 1
+A = [1,3,5,5,5,5,5,5,5,5,5,5]
+B = [2,6,8,9,10,12,15,16,10,11,12,16]
+c = 10
 
 print(hotel(A,B,c))
