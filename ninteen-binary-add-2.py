@@ -11,9 +11,7 @@ def add_binary(a,b):
     carry = 0
      
     for i in range (len(a)):
-        result = (ord(a[i])-48) + (ord(b[i])-48) + carry
-        carry = result //2
-        result = result % 2
+        carry , result = divmod((ord(a[i])-48) + (ord(b[i])-48) + carry,2)
         output.append(str(result))
 
     if carry == 1:
